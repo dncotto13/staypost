@@ -1,3 +1,10 @@
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(./img/buzon.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
 /* FOOTER */
 .footer {
     background-color: #2a3824;
@@ -23,4 +30,16 @@
 
 .navbar-nav a:hover {
     color: #648c28;
+}
+
+video {
+    width: 100%;
+}
+
+body {
+    background-image: url("certificado.jpg");
+}
+
+.conocenos {
+    color: white;
 }
