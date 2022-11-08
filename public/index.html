@@ -15,230 +15,238 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-lg sticky-lg-top">
-      <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-          <img src="./img/logo.jpg" alt="staypost" width="260" height="100">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">INICIO</a>
-          </li>
-
-          <li class="nav-item">
-              <a class="nav-link" href="#scrollspy1">CONÓCENOS</a>
-          </li>
-
-          <li class="nav-item">
-              <a class="nav-link" href="#scrollspy2">SERVICIOS</a>
-          </li>
-
-          <li class="nav-item">
-              <a class="nav-link" href="#scrollspy3">CLIENTES</a>
-          </li>
-
-          <li class="nav-item">
-              <a class="nav-link" href="#scrollspy4">CONTACTO</a>
-          </li>
-
-          </ul>
-      </div>
-      </div>
-  </nav>
-
-  <!-- INTRODUCCIÓN -->
-  <video autoplay muted loop>
-    <source src="inicio.mp4">
-</video>
-
-  <!-- CONÓCENOS -->
-<div class="conocenos p-5">
-    <div class="container">
-      <h1 id="scrollspy1" class="text-center mt-5">CONÓCENOS</h1>
-            <div class="container text-center">
-                <p>En STAYPOST proporcionamos un servicio de distribución de correspondencia profesional y transparente.</p>
-                <p>Tenga plena confianza de que su correspondencia está en las mejores manos. Contamos con profesionales que llevan más de 20 años de experiencia en el sector postal privado.</p>
-                <p>Como resultado, podemos asegurarle que sus enviíos se realizarán con la máxima profesionalidad.</p>
-          
+    <!-- ENCABEZADO -->
+    <div class="encabezado p-3">
+        <div class="container encabezado">
+        <div class="row justify-content-end">
+            <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                  </svg>
+                  <i class="bi bi-envelope">
+                    <a href="mailto:info.staypost@gmail.com">info.staypost@gmail.com</a>
+                  </i>
             </div>
+            <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                <i class="bi bi-telephone">674 23 39 63</i>
+            </div>
+        </div>
     </div>
-</div>
-<div class="row row-cols-1 row-cols-md-2 g-4">
-
-    <div class="col">
-      <div class="card">
-        <img src="./img/bienvenida.jpeg" class="card-img-top" alt="centro-de-trabajo">
-      </div>
     </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="./img/centro-trabajo.jpeg" class="card-img-top" alt="exterior">
-      </div>
-    </div>
-
-  </div>
-      <!-- <img src="./img/bienvenida.jpeg" class="img-fluid" alt="bienvenida"> -->
-
-  <!-- SERVICIOS -->
-  <div class="servicios pb-5 pt-1">
-  <div class="container mt-5">
-      <h1 id="scrollspy2" class="text-center">SERVICIOS</h1>
-      <p>A través de HISPAPOST, trataremos de llegar por medios propios a un porcentaje de población considerable, consiguiendo una estabilización de las tarifas postales a medio y largo plazo, de manera que las compañías pueden apostar a largo plazo por el canal postal, como medio de comunicación a sus clientes y potenciales.</p>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-          <div class="card h-100">
-              <img src="./img/buzon.jpg" class="card-img-top" alt="buzoneo">
-              <div class="card-body text-center">
-              <h5 class="card-title">Correo postal</h5>
-              <p class="card-text">Reparto de correspondencia cuyo contenido es totalmente confidencial y con comunicación de carácter personal.</p>
-              </div>
+    
+        <!-- BARRA DE NAVEGACIÓN -->
+    
+            <nav class="navbar navbar-expand-lg sticky-lg-top">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.jpg" alt="staypost" width="260" height="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">INICIO</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspy1">CONÓCENOS</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspy2">SERVICIOS</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspy3">CLIENTES</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspy4">CONTACTO</a>
+                    </li>
+    
+                    </ul>
+                </div>
+                </div>
+            </nav>
+    
+            <!-- INTRODUCCIÓN -->
+            <video autoplay muted loop>
+                <source src="./img/inicio.mp4">
+            </video>
+    
+            
+    
+            <!-- CONÓCENOS -->
+            <div class="conocenos p-5">
+                <div class="container">
+                <h1 id="scrollspy1" class="text-center mt-5">CONÓCENOS</h1>
+                    <div class="container text-center">
+                        <p>En STAYPOST proporcionamos un servicio de distribución de correspondencia profesional y transparente</p>
+                        <p>Tenga plena confianza de que su correspondencia está en las mejores manos. Contamos con profesionales que llevan más de 20 años de experiencia en el sector postal privado</p>
+                        <p>Como resultado, podemos asegurarle que sus envíos se realizarán con la máxima profesionalidad</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- SERVICIOS -->
+            <div class="servicios pb-5 pt-1">
+            <div class="container mt-5">
+                <h1 id="scrollspy2" class="text-center">SERVICIOS</h1>
+                <p>A través de HISPAPOST, trataremos de llegar por medios propios a un porcentaje de población considerable, consiguiendo una estabilización de las tarifas postales a medio y largo plazo, de manera que las compañías pueden apostar a largo plazo por el canal postal, como medio de comunicación a sus clientes y potenciales.</p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <a href="cp.html">
+                    <div class="card h-100">
+                        <img src="./img/buzon.jpg" class="card-img-top" alt="buzoneo">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Correo postal</h5>
+                        <p class="card-text">Reparto de correspondencia cuyo contenido es totalmente confidencial y con comunicación de carácter personal.</p>
+                        </div>
+                    </div>
+                </a>
+                    </div>
+    
+                    <div class="col">
+                        <a href="cp.html">
+                    <div class="card h-100">
+                        <img src="./img/certificado.jpg" class="card-img-top" alt="carta-certificada">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Cartas certificadas</h5>
+                        <p class="card-text">Envío postal con entrega garantizada en mano al destinatario para comunicaciones de alto valor.</p>
+                        </div>
+                    </div>
+                </a>
+                    </div>
+    
+                    <div class="col">
+                        <a href="cp.html">
+                    <div class="card h-100">
+                        <img src="./img/paqueteria.jpg" class="card-img-top" alt="reparto-paqueteria">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Paquetería</h5>
+                        <p class="card-text">Entrega y recogida de paquetería, mostrando el proceso mediante un control de seguimiento.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        </div>
+    
+    
+            <!-- CLIENTES -->
+            <div class="clientes pt-5">
+                <h1 class="text-center">CLIENTES PARTNER</h1>
+                
+                <marquee scrollamount="4" direction="right">
+                    <img src="/img/bbva.png" alt="bbva" width="150px">
+                    <img src="/img/caixa.png" alt="caixa" width="150px">
+                    <img src="/img/csif.png" alt="csif" width="150px">
+                    <img src="/img/endesa.png" alt="endesa" width="150px">
+                    <img src="/img/gaes.png" alt="gaes" width="150px">
+                    <img src="/img/kutxabank.png" alt="kutxabank" width="150px">
+                    <img src="/img/naturgy.jpg" alt="naturgy" width="150px">
+                    <img src="/img/sabadell.png" alt="sabadell" width="150px">
+                    <img src="/img/orange.jpg" alt="orange" width="150px">
+    
+                </marquee>
+    
+        </div>
+    
+    
+            <!-- CONTACTO -->
+            <div class="contacto">
+                <div class="container mt-4 text-center">
+                    <h1 id="scrollspy4" class="text-center">CONTACTO</h1>
+                    <p class="pt-2">Si está interesado en nuestros servicios, envíe su solicitud a través del siguiente formulario y le responderemos lo antes posible</p>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                            <label for="floatingInput">Nombre</label>
+                        </div>
+    
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Apellidos">
+                            <label for="floatingInput">Apellidos</label>
+                        </div>
+    
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Correo electrónico">
+                            <label for="floatingInput">Correo electrónico</label>
+                        </div>
+    
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Motivo de contacto</label>
+                        </div>         
+                    <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+                </div>
+            </div>
+            
+    
+    
+            <!-- FOOTER -->
+    <footer class="footer-distributed mt-5">
+    
+          <div class="footer-left">
+    
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo-b.png" alt="staypost" width="260" height="100">
+            </a>
+    
+            <p class="footer-links">
+              <a href="#" class="link-1">Inicio</a>
+              
+              <a href="#scrollspy1">Conócenos</a>
+            
+              <a href="#scrollspy2">Servicios</a>
+            
+              <a href="#scrollspy3">Clientes</a>
+              
+              <a href="#scrollspy4">Contacto</a>
+              
+            </p>
+    
+            <p class="footer-company-name">STAYPOST © 2022. Todos los derechos reservados. Sitio web desarrollado por DNCOTTO</p>
           </div>
+    
+          <div class="footer-center">
+    
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>C/ Tarantos, 5 Local</span> San Fernando, Cádiz</p>
+            </div>
+    
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>674 23 39 63</p>
+            </div>
+    
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:info.staypost@gmail.com">info.staypost@gmail.com</a></p>
+            </div>
+    
           </div>
-          <div class="col">
-          <div class="card h-100">
-              <img src="./img/certificado.jpg" class="card-img-top" alt="carta-certificada">
-              <div class="card-body text-center">
-              <h5 class="card-title">Cartas certificadas</h5>
-              <p class="card-text">Envío postal con entrega garantizada en mano al destinatario para comunicaciones de alto valor.</p>
-              </div>
+    
+          <div class="footer-right">
+    
+            <p class="footer-company-about">
+              <span>Sobre nosotros</span>
+              En STAYPOST proporcionamos un servicio de distribución de correspondencia profesional y transparente. Tenga plena confianza de que su correspondencia está en las mejores manos.
+            </p>
+    
+            <hr />
+                        
+    
+    
           </div>
-          </div>
-          <div class="col">
-          <div class="card h-100">
-              <img src="./img/paqueteria.jpg" class="card-img-top" alt="reparto-paqueteria">
-              <div class="card-body text-center">
-              <h5 class="card-title">Paquetería</h5>
-              <p class="card-text">Entrega y recogida de paquetería, mostrando el proceso mediante un control de seguimiento.</p>
-              </div>
-          </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-  <!-- CLIENTES -->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div id="scrollspy3" class="carousel-inner">
-
-          <div class="carousel-item active">
-              <img src="img/carrusel.png" class="d-block w-100" alt="clientes">
-          </div>
-
-          <div class="carousel-item active">
-              <img src="img/carrusel2.png" class="d-block w-100" alt="clientes">
-          </div>
-
-       
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-<!-- <div class="clientes">
-  <div class="container mt-5">
-      <h1 id="scrollspy3" class="text-center mt-5">CLIENTES</h1>
-      <div class="row pt-4">
-          <div class="col">
-              <img class="dia" src="img/sabadell.png" alt="sabadell" width="100">
-          </div>
-  
-          <div class="col">
-              <img src="img/bbva.png" alt="bbva" width="100">
-          </div>
-  
-          <div class="col">
-              <img src="img/caixa.png" alt="caixa" width="100">
-          </div>
-
-          <div class="col">
-              <img src="img/csif.png" alt="csif" width="100">
-          </div>
-
-          <div class="col">
-              <img src="img/endesa.png" alt="endesa" width="100">
-          </div>
-
-          <div class="col">
-              <img src="img/gaes.png" alt="gaes" width="100">
-          </div>
-
-          <div class="col">
-              <img src="img/naturgy.jpg" alt="naturgy" width="100">
-          </div>
-      </div>
-      </div>
-  </div>
-</div> -->
-
-  <!-- CONTACTO -->
-  <div class="contacto">
-      <div class="container mt-4 text-center">
-          <h1 id="scrollspy4" class="text-center">CONTACTO</h1>
-          <p class="pt-2">Si está interesado en nuestros servicios, envíe su solicitud a través del siguiente formulario y le responderemos lo antes posible</p>
-              <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="floatingInput">
-                  <label for="floatingInput">Nombre</label>
-              </div>
-
-              <div class="form-floating mb-3">
-                  <input type="text" class="form-control" id="floatingInput">
-                  <label for="floatingInput">Apellidos</label>
-              </div>
-
-              <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="floatingInput">
-                  <label for="floatingInput">Correo electrónico</label>
-              </div>
-
-              <div class="form-floating">
-                  <textarea class="form-control" id="floatingTextarea"></textarea>
-                  <label for="floatingTextarea">Motivo de contacto</label>
-              </div>          
-          <button type="submit" class="btn btn-primary mt-4">Enviar</button>
-      </div>
-  </div>
-  
-
-
-  <!-- FOOTER -->
-  <div class="footer p-3 mt-5">
-      <div class="container mt-4">
-          <div class="row">
-              <table class="table table-borderless">
-                  <thead>
-                      <tr>
-                          <th>Información de contacto</th>
-                          <th>Dirección</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>Teléfono: 674 23 39 63</td>
-                          <td>C/ Tarantos, 5 Local, San Fernando</td>
-                      </tr>
-
-                      <tr>
-                          <td>Email: info.staypost@gmail.com</td>
-                          <td>11100 Cádiz</td>
-                      </tr>
-                  </tbody>
-              </table>
-              <hr />
-              <p class="text-center">© STAYPOST 2022. Todos los derechos reservados. Sitio web desarrollado por DNCOTTO</p>
-          </div>
-      </div>
-  </div>
+    
+        </footer>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </html>
